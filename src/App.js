@@ -1,5 +1,7 @@
-import Sidebar from "./components/Sidebar"
-import Headers from "./components/Headers"
+import Sidebar from "./components/Sidebar";
+import Headers from "./components/Headers";
+import MainContent from "./components/MainContent";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -9,6 +11,8 @@ function App() {
         <div className="main-container">
           <div className="main-image"></div>
           <Headers />
+          <MainContent />
+          <Footer />
         </div>
       </div>
     </>
